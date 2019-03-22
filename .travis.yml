@@ -1,2 +1,3 @@
 language: bash
+dist: xenial
 script: lsb_release -cs | tee /dev/stderr | grep -q trusty
