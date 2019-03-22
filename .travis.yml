@@ -1,3 +1,2 @@
 language: bash
-dist: precise
 script: lsb_release -cs | tee /dev/stderr | grep -q trusty
