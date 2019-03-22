@@ -1,2 +1,2 @@
 language: bash
-script: lsb_release -cs
+script: lsb_release -cs | tee /dev/stderr | grep -q trusty
